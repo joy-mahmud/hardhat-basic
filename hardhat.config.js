@@ -25,4 +25,11 @@ module.exports = {
       accounts: [`${privateKey}`]
     }
   },
+  paths: {
+    sources: "./contracts",
+    tests: "./test",
+    cache: "./cache",
+    artifacts: "./artifacts"
+  },
+
 };
